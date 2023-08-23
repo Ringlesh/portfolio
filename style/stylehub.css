@@ -1,0 +1,18 @@
+@import'https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap';
+@import'https://api.fontshare.com/v2/css?f[]=general-sans@400&display=swap';
+
+
+@import './style.css';
+
+
+@import './component/header.css';
+@import './component/hero.css';
+@import './component/about.css';
+
+@import './component/work.css';
+@import'./component/contact.css';
+@import './component/footer.css';
+@import './component/mobilenav.css';
+@import './utiles.css';
+@import './component/Technical_skill.css';
+

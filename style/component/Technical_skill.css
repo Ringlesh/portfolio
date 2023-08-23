@@ -1,0 +1,321 @@
+.Technical_Skills__subtitle
+{
+  font-size:var(--size-sm);
+  color:var(--clr-indigo);
+  text-transform:capitalize;
+  font-weight: 400;
+}
+
+.Technical_Skills__title
+{
+  font-size:var(--size-2xl);
+  text-transform:uppercase;
+}
+
+.Technical_Skills__link
+{
+   width:var(--size-2xl);
+  height:var(--size-2xl);
+}
+
+.Technical_Skills__wrapper
+{
+  display: flex;
+  align-items:center;
+}
+
+.Technical_Skills__discrption
+{
+max-width:60ch;
+color: var(--clr-slate600);
+font-size:var(--size-sm);
+margin:1rem 0;
+}
+
+.Technical_Skills__label
+{
+  font-size:var(--size-base) ;
+  text-transform: capitalize;
+  margin-bottom:0.25em;
+  color:var(--clr-indigo)
+}
+
+.Technical_Skills__tech-stack
+{
+list-style-type:disc
+}
+
+.Technical_Skills__info
+{
+  font:var(--size-sm);
+  color:var(--clr-slate600);
+  text-transform:capitalize;
+
+}
+
+.Technical_Skills__info-container
+{
+  display:flex;
+  flex-wrap:wrap;
+  gap:1rem;
+}
+.Technical_Skills__info-container div
+{
+
+  flex:1;
+}
+.Technical_Skills__info-con
+{
+  position:relative;
+  padding:5rem;
+}
+
+.Technical_Skills__info-con::after
+{
+  content:'';
+  background-color: rgba(78, 70, 239, 0.544);
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  transition:0.5s;
+  border-radius: 20px;
+}
+
+.c
+{
+  color:rgb(143, 142, 141);
+transition:0.5s;  
+}
+.Technical_Skills__info-con:hover .c{
+  color:rgb(247, 247, 247);
+}
+
+.Technical_Skills__info-con:hover .s2
+{
+
+color: rgba(255, 0, 0, 0.721);
+border:1px solid rgba(255, 0, 0, 0.721);
+border-radius:0.5rem;
+padding:0.1rem;
+
+}
+
+
+.Technical_Skills__info-con:hover::after
+{
+  background-color: rgba(78, 70, 239, 0.01);
+  border:1px solid rgb(40, 16, 251);
+}
+
+.Technical_Skills-container
+{
+  margin-top:1rem;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-gap:5rem
+  
+}
+.Technical_Skills__tech-stack
+{
+  list-style: disc;
+  padding:0;
+  font-size:var(--size-sm);
+
+}
+.__img
+{
+  width: 100%;
+ height: 100%; 
+ border-radius: 20px;
+}
+
+
+/* media */
+/* xs */
+@media(min-width:475px )
+{
+  .Technical_Skills__subtitle
+{
+  font-size:var(--size-base);
+}
+
+  .Technical_Skills__title
+  {
+    font-size:var(--size-3xl);
+
+  }
+  .Technical_Skills__link
+{
+   width:var(--size-3xl);
+   height:var(--size-3xl);
+}
+.Technical_Skills__discrption
+{
+font-size:var(--size-base);
+margin:1rem 0;
+}
+
+.Technical_Skills__label
+{
+  font-size:var(--size-lg) ;
+  
+ 
+}
+.Technical_Skills__info
+{
+  font:var(--size-base);
+}
+.Technical_Skills__tech-stack
+{
+  list-style: disc;
+  padding:0;
+  font-size:var(--size-base);
+
+}
+.s2
+{ 
+
+
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.721);
+  border:1px solid rgba(255, 0, 0, 0.721);
+  border-radius:0.5rem;
+  padding:0.1rem;
+  transition:0.5s;
+
+}
+}
+
+/* sm */
+/* @media(min-width:640px )
+{
+ 
+} */
+/*md */
+@media(min-width:768px )
+{
+  .s2
+{ 
+  font-weight: bold;
+  color: wheat;
+  border:none;
+  border-radius:none;
+  padding:none;
+  transition:0.5s;
+}
+
+.Technical_Skills__info-con:hover .s2
+{
+color: rgba(255, 0, 0, 0.721);
+border:1px solid rgba(255, 0, 0, 0.721);
+border-radius:0.5rem;
+padding:0.1rem;
+}
+  
+} 
+
+/* lg */
+@media(min-width:1024px )
+{
+  .Technical_Skills__subtitle
+  {
+    font-size:var(--size-lg);
+  }
+  .Technical_Skills__title
+  {
+    font-size:var(--size-4xl);
+
+  }
+  .Technical_Skills__link
+{
+   width:var(--size-4xl);
+  height:var(--size-4xl);
+}
+
+.Technical_Skills__discrption
+{
+font-size:var(--size-lg);
+
+}
+.Technical_Skills__label
+{
+  font-size:var(--size-xl) ;
+  
+ 
+}
+
+
+
+.Technical_Skills__info
+{
+  font:var(--size-lg);
+
+
+}
+
+.Technical_Skills-container
+{
+  margin-top:1rem;
+
+  grid-template-columns:1fr 1fr;
+  grid-gap:5rem
+}
+
+.Technical_Skills__tech-stack
+{
+  list-style: disc;
+
+  font-size:var(--size-lg);
+
+}
+
+}
+/*xl */
+@media(min-width:1280px )
+{
+  .Technical_Skills__subtitle
+  {
+    font-size:var(--size-xl);
+  }
+  .Technical_Skills__title
+  {
+    font-size:var(--size-5xl);
+
+  }
+  .Technical_Skills__link
+{
+   width:var(--size-5xl);
+  height:var(--size-5xl);
+}
+
+.Technical_Skills__discrption
+{
+font-size:var(--size-xl);
+margin:2rem 0;
+}
+.Technical_Skills__label
+{
+  font-size:var(--size-2xl) ;
+  
+ 
+}
+
+
+
+.Technical_Skills__info
+{
+  font:var(--size-xl);
+
+
+}
+}
+
+/* 2xl */
+/* @media(min-width:1536px )
+{
+  
+} */
+
